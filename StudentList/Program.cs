@@ -35,11 +35,11 @@ namespace StudentList
             foreach (var item in list)
             {
                 Console.WriteLine(item.name + " : " + item.major);
-                
+                /*if(list.major(item)=="정보컴퓨터") // 컬렉션 가져와서 remove하는 건 X*/
             }
-            
 
-            
+
+
 
         }
     }
